@@ -1,0 +1,12 @@
+
+{ 
+    crc :  12110602727702020786  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto da316896bf304041bdfa2c57327674ff --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot bicycle_fsm_tb_behav xil_defaultlib.bicycle_fsm_tb xil_defaultlib.glbl" , 
+    buildDate : "May 27 2020" , 
+    buildTime : "20:09:33" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2020.1\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/bicycle_fsm_tb_behav/xsimk.exe\"   \"xsim.dir/bicycle_fsm_tb_behav/obj/xsim_0.win64.obj\" \"xsim.dir/bicycle_fsm_tb_behav/obj/xsim_1.win64.obj\" -L\"C:\\Xilinx\\Vivado\\2020.1\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

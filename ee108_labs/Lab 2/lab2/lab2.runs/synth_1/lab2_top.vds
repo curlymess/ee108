@@ -1,0 +1,321 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Oct  6 20:42:09 2020
+# Process ID: 12132
+# Current directory: C:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.runs/synth_1
+# Command line: vivado.exe -log lab2_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab2_top.tcl
+# Log file: C:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.runs/synth_1/lab2_top.vds
+# Journal file: C:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lab2_top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/nfaki/EE108_labs/hdmi_tx_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+Command: synth_design -top lab2_top -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 14128
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1012.148 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'lab2_top' [C:/Users/nfaki/EE108_labs/lab2/lab2_top.v:7]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [C:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.runs/synth_1/.Xil/Vivado-12132-NoorWindows/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [C:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.runs/synth_1/.Xil/Vivado-12132-NoorWindows/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'float_add' [C:/Users/nfaki/EE108_labs/lab2/float_add.v:1]
+INFO: [Synth 8-6157] synthesizing module 'big_number_first' [C:/Users/nfaki/EE108_labs/lab2/big_number_first.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'big_number_first' (2#1) [C:/Users/nfaki/EE108_labs/lab2/big_number_first.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shifter' [C:/Users/nfaki/EE108_labs/lab2/shifter.v:1]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'shifter' (3#1) [C:/Users/nfaki/EE108_labs/lab2/shifter.v:1]
+INFO: [Synth 8-6157] synthesizing module 'adder' [C:/Users/nfaki/EE108_labs/lab2/adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (4#1) [C:/Users/nfaki/EE108_labs/lab2/adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'float_add' (5#1) [C:/Users/nfaki/EE108_labs/lab2/float_add.v:1]
+INFO: [Synth 8-6157] synthesizing module 'dff' [C:/Users/nfaki/EE108_labs/lab2/ff_lib.v:3]
+	Parameter WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'dff' (6#1) [C:/Users/nfaki/EE108_labs/lab2/ff_lib.v:3]
+INFO: [Synth 8-6157] synthesizing module 'dffre' [C:/Users/nfaki/EE108_labs/lab2/ff_lib.v:34]
+	Parameter WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'dffre' (7#1) [C:/Users/nfaki/EE108_labs/lab2/ff_lib.v:34]
+INFO: [Synth 8-6157] synthesizing module 'dff__parameterized0' [C:/Users/nfaki/EE108_labs/lab2/ff_lib.v:3]
+	Parameter WIDTH bound to: 27 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'dff__parameterized0' (7#1) [C:/Users/nfaki/EE108_labs/lab2/ff_lib.v:3]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_tx_0' [C:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.runs/synth_1/.Xil/Vivado-12132-NoorWindows/realtime/hdmi_tx_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_tx_0' (8#1) [C:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.runs/synth_1/.Xil/Vivado-12132-NoorWindows/realtime/hdmi_tx_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'vga_controller_800x480_60' [C:/Users/nfaki/EE108_labs/lab2/vga_controller_800x480_60.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'vga_controller_800x480_60' (9#1) [C:/Users/nfaki/EE108_labs/lab2/vga_controller_800x480_60.vhd:70]
+INFO: [Synth 8-6157] synthesizing module 'dff__parameterized1' [C:/Users/nfaki/EE108_labs/lab2/ff_lib.v:3]
+	Parameter WIDTH bound to: 11 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'dff__parameterized1' (9#1) [C:/Users/nfaki/EE108_labs/lab2/ff_lib.v:3]
+INFO: [Synth 8-6157] synthesizing module 'fpa_vga_driver' [C:/Users/nfaki/EE108_labs/lab2/fpa_vga_driver.v:22]
+INFO: [Synth 8-6157] synthesizing module 'tcgrom' [C:/Users/nfaki/EE108_labs/lab2/tcgrom.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'tcgrom' (10#1) [C:/Users/nfaki/EE108_labs/lab2/tcgrom.v:4]
+INFO: [Synth 8-6157] synthesizing module 'dff__parameterized2' [C:/Users/nfaki/EE108_labs/lab2/ff_lib.v:3]
+	Parameter WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'dff__parameterized2' (10#1) [C:/Users/nfaki/EE108_labs/lab2/ff_lib.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'fpa_vga_driver' (11#1) [C:/Users/nfaki/EE108_labs/lab2/fpa_vga_driver.v:22]
+WARNING: [Synth 8-689] width (11) of port connection 'YPos' does not match port width (10) of module 'fpa_vga_driver' [C:/Users/nfaki/EE108_labs/lab2/lab2_top.v:191]
+INFO: [Synth 8-6155] done synthesizing module 'lab2_top' (12#1) [C:/Users/nfaki/EE108_labs/lab2/lab2_top.v:7]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1012.148 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1012.148 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1012.148 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1012.148 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc] for cell 'U3'
+Finished Parsing XDC File [c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc] for cell 'U3'
+Parsing XDC File [c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'U2'
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc:1]
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc:4]
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc:6]
+WARNING: [Vivado 12-584] No ports matched ''. [c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc:8]
+Finished Parsing XDC File [c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'U2'
+Parsing XDC File [C:/Users/nfaki/EE108_labs/lab2/lab2.xdc]
+Finished Parsing XDC File [C:/Users/nfaki/EE108_labs/lab2/lab2.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/nfaki/EE108_labs/lab2/lab2.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/lab2_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/lab2_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1012.148 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1012.148 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1012.148 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1012.148 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Clk_n. (constraint file  {c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 1).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Clk_n. (constraint file  {c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 2).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Clk_p. (constraint file  {c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Clk_p. (constraint file  {c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Data_n[0]. (constraint file  {c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Data_n[0]. (constraint file  {c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 6).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Data_n[1]. (constraint file  {c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 7).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Data_n[1]. (constraint file  {c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 8).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Data_n[2]. (constraint file  {c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 9).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Data_n[2]. (constraint file  {c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 10).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Data_p[0]. (constraint file  {c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 11).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Data_p[0]. (constraint file  {c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 12).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Data_p[1]. (constraint file  {c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 13).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Data_p[1]. (constraint file  {c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 14).
+Applied set_property IO_BUFFER_TYPE = NONE for TMDS_Data_p[2]. (constraint file  {c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 15).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for TMDS_Data_p[2]. (constraint file  {c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/hdmi_tx_0/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 16).
+Applied set_property IO_BUFFER_TYPE = NONE for sysclk. (constraint file  {c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 9).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sysclk. (constraint file  {c:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 10).
+Applied set_property DONT_TOUCH = true for U3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U2. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1012.148 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1012.148 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   27 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 3     
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
+	   3 Input    3 Bit       Adders := 1     
++---Registers : 
+	               27 Bit    Registers := 1     
+	               11 Bit    Registers := 4     
+	                8 Bit    Registers := 4     
+	                6 Bit    Registers := 4     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 4     
+	   2 Input    6 Bit        Muxes := 8     
+	   3 Input    6 Bit        Muxes := 2     
+	   4 Input    6 Bit        Muxes := 1     
+	   5 Input    6 Bit        Muxes := 1     
+	  19 Input    6 Bit        Muxes := 1     
+	  12 Input    6 Bit        Muxes := 1     
+	  13 Input    6 Bit        Muxes := 1     
+	  15 Input    6 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1012.148 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++------------+------------------------+---------------+----------------+
+|Module Name | RTL Object             | Depth x Width | Implemented As | 
++------------+------------------------+---------------+----------------+
+|tcgrom      | data                   | 512x8         | LUT            | 
+|lab2_top    | fpa_vga/tcgrom/data    | 512x8         | Block RAM      | 
+|lab2_top    | fpa_vga/char_selection | 32x6          | LUT            | 
++------------+------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 1012.148 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 1039.621 ; gain = 27.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1057.668 ; gain = 45.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1057.668 ; gain = 45.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1057.668 ; gain = 45.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1057.668 ; gain = 45.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1057.668 ; gain = 45.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1057.668 ; gain = 45.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1057.668 ; gain = 45.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
+|2     |hdmi_tx_0     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |clk_wiz  |     1|
+|2     |hdmi_tx  |     1|
+|3     |CARRY4   |     9|
+|4     |LUT1     |     3|
+|5     |LUT2     |    19|
+|6     |LUT3     |    20|
+|7     |LUT4     |    33|
+|8     |LUT5     |    36|
+|9     |LUT6     |    79|
+|10    |MUXF7    |     2|
+|11    |RAMB18E1 |     1|
+|12    |FDRE     |   108|
+|13    |FDSE     |     6|
+|14    |IBUF     |    11|
+|15    |OBUF     |     4|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:55 ; elapsed = 00:00:57 . Memory (MB): peak = 1057.668 ; gain = 45.520
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:40 ; elapsed = 00:00:53 . Memory (MB): peak = 1057.668 ; gain = 45.520
+Synthesis Optimization Complete : Time (s): cpu = 00:00:55 ; elapsed = 00:00:58 . Memory (MB): peak = 1057.668 ; gain = 45.520
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1065.504 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1065.504 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+48 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:06 ; elapsed = 00:01:12 . Memory (MB): peak = 1065.504 ; gain = 53.355
+INFO: [Common 17-1381] The checkpoint 'C:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.runs/synth_1/lab2_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file lab2_top_utilization_synth.rpt -pb lab2_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Oct  6 20:43:28 2020...

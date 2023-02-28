@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../lab3.srcs/sources_1/ip/clk_wiz_0" \
+"../../../../lab3.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../lab3.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../../../../../EE108_labs/lab3/beat32.v" \
+"../../../../../../../../EE108_labs/lab3/bicycle_fsm.v" \
+"../../../../../../../../EE108_labs/lab3/blinker.v" \
+"../../../../../../../../EE108_labs/lab3/brute_force_synchronizer.v" \
+"../../../../../../../../EE108_labs/lab3/button_press_unit.v" \
+"../../../../../../../../EE108_labs/lab3/debouncer.v" \
+"../../../../../../../../EE108_labs/lab3/ff_lib.v" \
+"../../../../../../../../EE108_labs/lab3/lab3_top.v" \
+"../../../../../../../../EE108_labs/lab3/master_fsm.v" \
+"../../../../../../../../EE108_labs/lab3/one_pulse.v" \
+"../../../../../../../../EE108_labs/lab3/programmable_blinker.v" \
+"../../../../../../../../EE108_labs/lab3/shifter.v" \
+"../../../../../../../../EE108_labs/lab3/timer.v" \
+"../../../../../../../../EE108_labs/lab3/lab3_top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

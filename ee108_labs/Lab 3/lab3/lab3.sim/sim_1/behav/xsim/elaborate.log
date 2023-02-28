@@ -1,0 +1,43 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto da316896bf304041bdfa2c57327674ff --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot lab3_top_tb_behav xil_defaultlib.lab3_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=8.0,C...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.dff
+Compiling module xil_defaultlib.brute_force_synchronizer
+Compiling module xil_defaultlib.dffr(WIDTH=20)
+Compiling module xil_defaultlib.dffr(WIDTH=2)
+Compiling module xil_defaultlib.debouncer
+Compiling module xil_defaultlib.dffr
+Compiling module xil_defaultlib.one_pulse
+Compiling module xil_defaultlib.button_press_unit
+Compiling module xil_defaultlib.dffr(WIDTH=4)
+Compiling module xil_defaultlib.beat32
+Compiling module xil_defaultlib.dffr(WIDTH=3)
+Compiling module xil_defaultlib.master_fsm
+Compiling module xil_defaultlib.shifter
+Compiling module xil_defaultlib.dffre(WIDTH=9)
+Compiling module xil_defaultlib.dffr(WIDTH=9)
+Compiling module xil_defaultlib.timer
+Compiling module xil_defaultlib.blinker
+Compiling module xil_defaultlib.programmable_blinker
+Compiling module xil_defaultlib.shifter(APPEND=2)
+Compiling module xil_defaultlib.dffre(WIDTH=6)
+Compiling module xil_defaultlib.dffr(WIDTH=6)
+Compiling module xil_defaultlib.timer(APPEND=2)
+Compiling module xil_defaultlib.programmable_blinker(APPEND=2)
+Compiling module xil_defaultlib.bicycle_fsm
+Compiling module xil_defaultlib.lab3_top
+Compiling module xil_defaultlib.lab3_top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab3_top_tb_behav

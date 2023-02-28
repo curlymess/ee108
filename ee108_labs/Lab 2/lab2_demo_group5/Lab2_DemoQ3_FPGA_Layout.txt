@@ -1,0 +1,1 @@
+The screenshot of the FPGA layout shows aIn marked in yellow. aIn is one of two user inputs that the board recieves, and it's value is being manipulated by the other modules in order to recieve our result, which is the float addition of aIn and bIn.

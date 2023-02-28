@@ -1,0 +1,411 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Oct 21 18:18:49 2020
+| Host         : NoorWindows running 64-bit major release  (build 9200)
+| Command      : report_methodology -file lab4_top_methodology_drc_routed.rpt -pb lab4_top_methodology_drc_routed.pb -rpx lab4_top_methodology_drc_routed.rpx
+| Design       : lab4_top
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 75
++-----------+------------------+------------------------------------------------+------------+
+| Rule      | Severity         | Description                                    | Violations |
++-----------+------------------+------------------------------------------------+------------+
+| TIMING-6  | Critical Warning | No common primary clock between related clocks | 8          |
+| TIMING-16 | Warning          | Large setup violation                          | 67         |
++-----------+------------------+------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-6#1 Critical Warning
+No common primary clock between related clocks  
+The clocks clk_out1_clk_wiz_0 and clk_out1_clk_wiz_0_1 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_clk_wiz_0] -to [get_clocks clk_out1_clk_wiz_0_1]
+Related violations: <none>
+
+TIMING-6#2 Critical Warning
+No common primary clock between related clocks  
+The clocks clk_out1_clk_wiz_0 and clkout0_1 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_clk_wiz_0] -to [get_clocks clkout0_1]
+Related violations: <none>
+
+TIMING-6#3 Critical Warning
+No common primary clock between related clocks  
+The clocks clk_out1_clk_wiz_0_1 and clk_out1_clk_wiz_0 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_clk_wiz_0_1] -to [get_clocks clk_out1_clk_wiz_0]
+Related violations: <none>
+
+TIMING-6#4 Critical Warning
+No common primary clock between related clocks  
+The clocks clk_out1_clk_wiz_0_1 and clkout0 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_clk_wiz_0_1] -to [get_clocks clkout0]
+Related violations: <none>
+
+TIMING-6#5 Critical Warning
+No common primary clock between related clocks  
+The clocks clkout0 and clk_out1_clk_wiz_0_1 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clkout0] -to [get_clocks clk_out1_clk_wiz_0_1]
+Related violations: <none>
+
+TIMING-6#6 Critical Warning
+No common primary clock between related clocks  
+The clocks clkout0 and clkout0_1 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clkout0] -to [get_clocks clkout0_1]
+Related violations: <none>
+
+TIMING-6#7 Critical Warning
+No common primary clock between related clocks  
+The clocks clkout0_1 and clk_out1_clk_wiz_0 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clkout0_1] -to [get_clocks clk_out1_clk_wiz_0]
+Related violations: <none>
+
+TIMING-6#8 Critical Warning
+No common primary clock between related clocks  
+The clocks clkout0_1 and clkout0 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clkout0_1] -to [get_clocks clkout0]
+Related violations: <none>
+
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -1.905 ns between music_player/codec_conditioner/next_sample_latch/q_reg[3]/C (clocked by clk_out1_clk_wiz_0) and adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_out_reg[51]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -1.985 ns between music_player/codec_conditioner/new_frame_state/q_reg[0]/C (clocked by clk_out1_clk_wiz_0) and adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_out_reg[60]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -2.065 ns between music_player/codec_conditioner/current_sample_latch/q_reg[7]/C (clocked by clk_out1_clk_wiz_0) and adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_out_reg[55]/D (clocked by clkout0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -2.069 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/beat_generator/counter/q_reg[0]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -2.069 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/beat_generator/counter/q_reg[1]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -2.069 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/beat_generator/counter/q_reg[2]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -2.069 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/beat_generator/counter/q_reg[3]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -2.069 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/beat_generator/counter/q_reg[4]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -2.069 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/beat_generator/counter/q_reg[5]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -2.069 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/beat_generator/counter/q_reg[8]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -2.069 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/beat_generator/counter/q_reg[9]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -2.071 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/codec_conditioner/new_frame_state/q_reg[0]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -2.117 ns between music_player/codec_conditioner/next_sample_latch/q_reg[0]/C (clocked by clk_out1_clk_wiz_0) and adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_out_reg[48]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -2.141 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/codec_conditioner/current_sample_latch/q_reg[0]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -2.141 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/codec_conditioner/current_sample_latch/q_reg[11]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#16 Warning
+Large setup violation  
+There is a large setup violation of -2.141 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/codec_conditioner/current_sample_latch/q_reg[15]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#17 Warning
+Large setup violation  
+There is a large setup violation of -2.141 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/codec_conditioner/current_sample_latch/q_reg[1]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#18 Warning
+Large setup violation  
+There is a large setup violation of -2.141 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/codec_conditioner/current_sample_latch/q_reg[2]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#19 Warning
+Large setup violation  
+There is a large setup violation of -2.141 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/codec_conditioner/current_sample_latch/q_reg[3]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#20 Warning
+Large setup violation  
+There is a large setup violation of -2.141 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/codec_conditioner/current_sample_latch/q_reg[4]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#21 Warning
+Large setup violation  
+There is a large setup violation of -2.141 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/codec_conditioner/current_sample_latch/q_reg[9]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#22 Warning
+Large setup violation  
+There is a large setup violation of -2.154 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/codec_conditioner/current_sample_latch/q_reg[10]/CE (clocked by clk_out1_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#23 Warning
+Large setup violation  
+There is a large setup violation of -2.154 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/codec_conditioner/current_sample_latch/q_reg[13]/CE (clocked by clk_out1_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#24 Warning
+Large setup violation  
+There is a large setup violation of -2.154 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/codec_conditioner/current_sample_latch/q_reg[14]/CE (clocked by clk_out1_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#25 Warning
+Large setup violation  
+There is a large setup violation of -2.185 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/beat_generator/counter/q_reg[6]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#26 Warning
+Large setup violation  
+There is a large setup violation of -2.185 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/beat_generator/counter/q_reg[7]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#27 Warning
+Large setup violation  
+There is a large setup violation of -2.185 ns between music_player/codec_conditioner/new_frame_state/q_reg[0]/C (clocked by clk_out1_clk_wiz_0) and adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_out_reg[57]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#28 Warning
+Large setup violation  
+There is a large setup violation of -2.193 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/codec_conditioner/current_sample_latch/q_reg[12]/CE (clocked by clk_out1_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#29 Warning
+Large setup violation  
+There is a large setup violation of -2.193 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/codec_conditioner/current_sample_latch/q_reg[5]/CE (clocked by clk_out1_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#30 Warning
+Large setup violation  
+There is a large setup violation of -2.193 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/codec_conditioner/current_sample_latch/q_reg[6]/CE (clocked by clk_out1_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#31 Warning
+Large setup violation  
+There is a large setup violation of -2.193 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/codec_conditioner/current_sample_latch/q_reg[7]/CE (clocked by clk_out1_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#32 Warning
+Large setup violation  
+There is a large setup violation of -2.193 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/codec_conditioner/current_sample_latch/q_reg[8]/CE (clocked by clk_out1_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#33 Warning
+Large setup violation  
+There is a large setup violation of -2.196 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[0]/CE (clocked by clk_out1_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#34 Warning
+Large setup violation  
+There is a large setup violation of -2.196 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[1]/CE (clocked by clk_out1_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#35 Warning
+Large setup violation  
+There is a large setup violation of -2.196 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[20]/CE (clocked by clk_out1_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#36 Warning
+Large setup violation  
+There is a large setup violation of -2.196 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[21]/CE (clocked by clk_out1_clk_wiz_0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#37 Warning
+Large setup violation  
+There is a large setup violation of -2.200 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[9]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#38 Warning
+Large setup violation  
+There is a large setup violation of -2.204 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[16]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#39 Warning
+Large setup violation  
+There is a large setup violation of -2.204 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[17]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#40 Warning
+Large setup violation  
+There is a large setup violation of -2.204 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[18]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#41 Warning
+Large setup violation  
+There is a large setup violation of -2.204 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[19]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#42 Warning
+Large setup violation  
+There is a large setup violation of -2.205 ns between music_player/codec_conditioner/current_sample_latch/q_reg[15]/C (clocked by clk_out1_clk_wiz_0) and adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_out_reg[63]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#43 Warning
+Large setup violation  
+There is a large setup violation of -2.219 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[10]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#44 Warning
+Large setup violation  
+There is a large setup violation of -2.219 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[12]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#45 Warning
+Large setup violation  
+There is a large setup violation of -2.219 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[13]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#46 Warning
+Large setup violation  
+There is a large setup violation of -2.219 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[14]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#47 Warning
+Large setup violation  
+There is a large setup violation of -2.219 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[15]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#48 Warning
+Large setup violation  
+There is a large setup violation of -2.219 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[8]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#49 Warning
+Large setup violation  
+There is a large setup violation of -2.247 ns between music_player/codec_conditioner/new_frame_state/q_reg[0]/C (clocked by clk_out1_clk_wiz_0) and adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_out_reg[59]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#50 Warning
+Large setup violation  
+There is a large setup violation of -2.251 ns between music_player/codec_conditioner/new_frame_state/q_reg[0]/C (clocked by clk_out1_clk_wiz_0) and adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_out_reg[61]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#51 Warning
+Large setup violation  
+There is a large setup violation of -2.256 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[11]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#52 Warning
+Large setup violation  
+There is a large setup violation of -2.256 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[2]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#53 Warning
+Large setup violation  
+There is a large setup violation of -2.256 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[3]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#54 Warning
+Large setup violation  
+There is a large setup violation of -2.256 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[4]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#55 Warning
+Large setup violation  
+There is a large setup violation of -2.256 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[5]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#56 Warning
+Large setup violation  
+There is a large setup violation of -2.256 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[6]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#57 Warning
+Large setup violation  
+There is a large setup violation of -2.256 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/get_addr/q_reg[7]/CE (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#58 Warning
+Large setup violation  
+There is a large setup violation of -2.261 ns between music_player/codec_conditioner/new_frame_state/q_reg[0]/C (clocked by clk_out1_clk_wiz_0) and adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_out_reg[62]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#59 Warning
+Large setup violation  
+There is a large setup violation of -2.272 ns between music_player/codec_conditioner/new_frame_state/q_reg[0]/C (clocked by clk_out1_clk_wiz_0) and adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_out_reg[50]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#60 Warning
+Large setup violation  
+There is a large setup violation of -2.272 ns between music_player/codec_conditioner/new_frame_state/q_reg[0]/C (clocked by clk_out1_clk_wiz_0) and adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_out_reg[58]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#61 Warning
+Large setup violation  
+There is a large setup violation of -2.273 ns between music_player/codec_conditioner/new_frame_state/q_reg[0]/C (clocked by clk_out1_clk_wiz_0) and adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_out_reg[53]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#62 Warning
+Large setup violation  
+There is a large setup violation of -2.279 ns between music_player/codec_conditioner/new_frame_state/q_reg[0]/C (clocked by clk_out1_clk_wiz_0) and adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_out_reg[52]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#63 Warning
+Large setup violation  
+There is a large setup violation of -2.283 ns between music_player/codec_conditioner/new_frame_state/q_reg[0]/C (clocked by clk_out1_clk_wiz_0) and adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_out_reg[54]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#64 Warning
+Large setup violation  
+There is a large setup violation of -2.291 ns between music_player/codec_conditioner/new_frame_state/q_reg[0]/C (clocked by clk_out1_clk_wiz_0) and adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_out_reg[56]/D (clocked by clkout0_1). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#65 Warning
+Large setup violation  
+There is a large setup violation of -2.296 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/sinerom/music_player/note_player/sineread/sinerom/dout_reg_cooolgate_en_gate_4_cooolDelFlop/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#66 Warning
+Large setup violation  
+There is a large setup violation of -2.347 ns between adau1761_codec/i2c_interface/Inst_i2s_data_interface/new_sample_reg_replica/C (clocked by clkout0) and music_player/note_player/sineread/sample_delay/q_reg[0]/D (clocked by clk_out1_clk_wiz_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#67 Warning
+Large setup violation  
+There is a large setup violation of -2.391 ns between music_player/codec_conditioner/next_sample_latch/q_reg[1]/C (clocked by clk_out1_clk_wiz_0) and adau1761_codec/i2c_interface/Inst_i2s_data_interface/sr_out_reg[49]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+

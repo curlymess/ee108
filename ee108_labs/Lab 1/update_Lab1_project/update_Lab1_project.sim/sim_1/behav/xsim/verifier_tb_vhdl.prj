@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../../../EE108_labs/lab1/video_package_800x480.vhd" \
+"../../../../../../../../EE108_labs/lab1/vga_controller_800x480_60.vhd" \
+
+# Do not sort compile order
+nosort

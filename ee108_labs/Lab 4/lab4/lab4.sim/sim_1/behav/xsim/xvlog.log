@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab4/ff_lib.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff
+INFO: [VRFC 10-311] analyzing module dffr
+INFO: [VRFC 10-311] analyzing module dffre
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab4/song_reader.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module song_reader
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab4/song_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module song_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab4/song_reader_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module song_reader_tb

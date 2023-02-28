@@ -1,0 +1,26 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/nfaki/Desktop/ee 108/Lab 3/lab3/lab3.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/nfaki/Desktop/ee 108/Lab 3/lab3/lab3.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1602480147,verilog,,C:/Users/nfaki/EE108_labs/lab3/beat32.v,,clk_wiz_0,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/Desktop/ee 108/Lab 3/lab3/lab3.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1602480146,verilog,,C:/Users/nfaki/Desktop/ee 108/Lab 3/lab3/lab3.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab3/beat32.v,1602709844,verilog,,C:/Users/nfaki/EE108_labs/lab3/bicycle_fsm.v,,beat32,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab3/bicycle_fsm.v,1602660955,verilog,,C:/Users/nfaki/EE108_labs/lab3/blinker.v,,bicycle_fsm,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab3/bicycle_fsm_tb.v,1602650101,verilog,,,,bicycle_fsm_tb,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab3/blinker.v,1602660955,verilog,,C:/Users/nfaki/EE108_labs/lab3/brute_force_synchronizer.v,,blinker,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab3/blinker_tb.v,1602483625,verilog,,,,blinker_tb,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab3/brute_force_synchronizer.v,1602209884,verilog,,C:/Users/nfaki/EE108_labs/lab3/button_press_unit.v,,brute_force_synchronizer,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab3/button_press_unit.v,1602209884,verilog,,C:/Users/nfaki/EE108_labs/lab3/debouncer.v,,button_press_unit,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab3/debouncer.v,1602209884,verilog,,C:/Users/nfaki/EE108_labs/lab3/ff_lib.v,,debouncer,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab3/ff_lib.v,1602209884,verilog,,C:/Users/nfaki/EE108_labs/lab3/lab3_top.v,,dff;dffr;dffre,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab3/lab3_top.v,1602209884,verilog,,C:/Users/nfaki/EE108_labs/lab3/master_fsm.v,,lab3_top,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab3/lab3_top_tb.v,1602715499,verilog,,,,lab3_top_tb,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab3/master_fsm.v,1602709844,verilog,,C:/Users/nfaki/EE108_labs/lab3/one_pulse.v,,master_fsm,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab3/master_fsm_tb.v,1602558365,verilog,,,,master_fsm_tb,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab3/one_pulse.v,1602209884,verilog,,C:/Users/nfaki/EE108_labs/lab3/programmable_blinker.v,,one_pulse,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab3/programmable_blinker.v,1602660955,verilog,,C:/Users/nfaki/EE108_labs/lab3/shifter.v,,programmable_blinker,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab3/programmable_blinker_tb.v,1602711662,verilog,,,,programmable_blinker_tb,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab3/shifter.v,1602526729,verilog,,C:/Users/nfaki/EE108_labs/lab3/timer.v,,shifter,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab3/shifter_tb.v,1602480399,verilog,,,,shifter_tb,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab3/timer.v,1602667522,verilog,,C:/Users/nfaki/EE108_labs/lab3/lab3_top_tb.v,,timer,,,../../../../lab3.srcs/sources_1/ip/clk_wiz_0,,,,,

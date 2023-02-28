@@ -1,0 +1,40 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/Desktop/ee 108/Lab 3/lab3/lab3.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/Desktop/ee 108/Lab 3/lab3/lab3.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab3/beat32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module beat32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab3/bicycle_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bicycle_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab3/blinker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blinker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab3/brute_force_synchronizer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module brute_force_synchronizer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab3/button_press_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module button_press_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab3/debouncer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debouncer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab3/ff_lib.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dff
+INFO: [VRFC 10-311] analyzing module dffr
+INFO: [VRFC 10-311] analyzing module dffre
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab3/lab3_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab3_top
+INFO: [VRFC 10-2458] undeclared symbol reset, assumed default net type wire [C:/Users/nfaki/EE108_labs/lab3/lab3_top.v:23]
+INFO: [VRFC 10-2458] undeclared symbol reset_button, assumed default net type wire [C:/Users/nfaki/EE108_labs/lab3/lab3_top.v:28]
+INFO: [VRFC 10-2458] undeclared symbol next_state_button, assumed default net type wire [C:/Users/nfaki/EE108_labs/lab3/lab3_top.v:28]
+INFO: [VRFC 10-2458] undeclared symbol slower_button, assumed default net type wire [C:/Users/nfaki/EE108_labs/lab3/lab3_top.v:28]
+INFO: [VRFC 10-2458] undeclared symbol faster_button, assumed default net type wire [C:/Users/nfaki/EE108_labs/lab3/lab3_top.v:28]
+WARNING: [VRFC 10-2938] 'reset' is already implicitly declared on line 23 [C:/Users/nfaki/EE108_labs/lab3/lab3_top.v:30]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab3/master_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module master_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab3/one_pulse.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_pulse
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab3/programmable_blinker.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module programmable_blinker
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab3/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab3/timer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab3/lab3_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab3_top_tb

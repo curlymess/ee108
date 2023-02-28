@@ -1,0 +1,19 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 65c571c0d13647129a0188dd02e266e5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot song_reader_tb_behav xil_defaultlib.song_reader_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/nfaki/Desktop/ee 108/Lab 4/lab4/lab4.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/nfaki/Desktop/ee 108/Lab 4/lab4/lab4.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dffr(WIDTH=3)
+Compiling module xil_defaultlib.dffre(WIDTH=7)
+Compiling module xil_defaultlib.song_rom
+Compiling module xil_defaultlib.song_reader
+Compiling module xil_defaultlib.song_reader_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot song_reader_tb_behav

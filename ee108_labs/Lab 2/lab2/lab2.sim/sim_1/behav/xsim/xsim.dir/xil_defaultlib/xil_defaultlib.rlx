@@ -1,0 +1,15 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/nfaki/Desktop/ee 108/Lab 2/lab2/lab2.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/nfaki/EE108_labs/lab2/adder.v,1601924473,verilog,,C:/Users/nfaki/EE108_labs/lab2/big_number_first.v,,adder,,,../../../../lab2.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab2/adder_tb.v,1601928781,verilog,,,,adder_tb,,,../../../../lab2.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab2/big_number_first.v,1601924473,verilog,,C:/Users/nfaki/EE108_labs/lab2/float_add.v,,big_number_first,,,../../../../lab2.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab2/big_number_first_tb.v,1601924473,verilog,,,,big_number_first_tb,,,../../../../lab2.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab2/float_add.v,1601924473,verilog,,C:/Users/nfaki/EE108_labs/lab2/shifter.v,,float_add,,,../../../../lab2.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab2/float_add_tb.v,1601932206,verilog,,,,float_add_tb,,,../../../../lab2.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab2/one_bit_full_adder.v,1601424906,verilog,,C:/Users/nfaki/EE108_labs/lab2/one_bit_full_adder_tb.v,,one_bit_full_adder,,,../../../../lab2.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab2/one_bit_full_adder_tb.v,1601764295,verilog,,,,one_bit_full_adder_tb,,,../../../../lab2.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab2/shifter.v,1601924473,verilog,,C:/Users/nfaki/EE108_labs/lab2/float_add_tb.v,,shifter,,,../../../../lab2.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab2/shifter_tb.v,1601924473,verilog,,,,shifter_tb,,,../../../../lab2.srcs/sources_1/ip/clk_wiz_0,,,,,

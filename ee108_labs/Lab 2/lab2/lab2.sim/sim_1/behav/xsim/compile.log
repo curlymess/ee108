@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab2/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab2/big_number_first.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module big_number_first
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab2/float_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module float_add
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab2/shifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/nfaki/EE108_labs/lab2/float_add_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module float_add_tb

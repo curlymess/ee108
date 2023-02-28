@@ -1,0 +1,10 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/nfaki/Desktop/ee 108/Lab 5/lab5/lab5.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/nfaki/EE108_labs/lab5/fake_sample_ram.v,1603506586,verilog,,C:/Users/nfaki/EE108_labs/lab5/ff_lib.v,,fake_sample_ram,,,../../../../lab5.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab5/ff_lib.v,1603506586,verilog,,C:/Users/nfaki/EE108_labs/lab5/tcgrom.v,,dff;dffr;dffre,,,../../../../lab5.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab5/tcgrom.v,1603506586,verilog,,C:/Users/nfaki/EE108_labs/lab5/wave_display.v,,tcgrom,,,../../../../lab5.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab5/wave_display.v,1605313279,verilog,,C:/Users/nfaki/EE108_labs/lab5/wave_display_tb.v,,wave_display,,,../../../../lab5.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/nfaki/EE108_labs/lab5/wave_display_tb.v,1605313120,verilog,,,,wave_display_tb,,,../../../../lab5.srcs/sources_1/ip/clk_wiz_0,,,,,

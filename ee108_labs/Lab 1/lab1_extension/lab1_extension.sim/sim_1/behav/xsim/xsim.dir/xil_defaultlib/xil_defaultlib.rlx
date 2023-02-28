@@ -1,0 +1,9 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/nfaki/Desktop/ee 108/Lab 1/lab1_extension/lab1_extension.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/nfaki/Desktop/ee 108/Lab 1/lab1estarterfiles/n_bit_adder.v,1601425246,verilog,,C:/Users/nfaki/Desktop/ee 108/Lab 1/lab1estarterfiles/n_bit_multiplier.v,,n_bit_adder,,,,,,,,
+C:/Users/nfaki/Desktop/ee 108/Lab 1/lab1estarterfiles/n_bit_multiplier.v,1601425239,verilog,,C:/Users/nfaki/Desktop/ee 108/Lab 1/lab1estarterfiles/one_bit_full_adder.v,,n_bit_multiplier,,,,,,,,
+C:/Users/nfaki/Desktop/ee 108/Lab 1/lab1estarterfiles/n_bit_multiplier_tb.v,1601502323,verilog,,,,n_bit_multiplier_tb,,,,,,,,
+C:/Users/nfaki/Desktop/ee 108/Lab 1/lab1estarterfiles/one_bit_full_adder.v,1601424906,verilog,,C:/Users/nfaki/Desktop/ee 108/Lab 1/lab1estarterfiles/n_bit_multiplier_tb.v,,one_bit_full_adder,,,,,,,,
